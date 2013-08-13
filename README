@@ -1,19 +1,15 @@
 README for Tree::Ternary
 
-			    Tree::Ternary
+Tree::Ternary is a pure Perl implementation of ternary search trees as 
+described by Jon Bentley and Robert Sedgewick.  Ternary search trees are
+interesting data structures that provide a means of storing and accessing
+strings.  They combine the time efficiency of digital tries with the space
+efficiency of binary search trees.  Unlike a hash, they also maintain 
+information about relative order.
 
-Tree::Ternary is a Perl implementation of ternary search trees as
-described by Jon Bentley and Robert Sedgewick.  For more information
-on ternary search trees, visit: 
+For more information on ternary search trees, visit: 
 
 	http://www.cs.princeton.edu/~rs/strings/
-
-Tree::Ternary is a Perl implementation of ternary search trees as described
-by Jon Bentley and Robert Sedgewick.  Ternary search trees are interesting
-data structures that provide a means of storing and accessing strings.  They
-combine the time efficiency of digital tries with the space efficiency of
-binary search trees.  Unlike a hash, they also maintain information about
-relative order.
 
 This module is a translation (albeit not a direct one) from the C
 implementation published in Bentley and Sedgewick's article in the April
@@ -21,10 +17,6 @@ implementation published in Bentley and Sedgewick's article in the April
 
 
 PREREQUISITES
-
-This suite requires Perl 5; I've only used it under Perl 5.005, so for
-anything lower, you're on your own.  I highly recommend the use of 
-Test.pm, although, it is not required.
 
 Tree::Ternary doesn't use any nonstandard modules.
 
@@ -55,46 +47,42 @@ with the 'perldoc' utility.
 SUPPORT
 
 Questions, comments, bugfixes, flames, and other administrivia pertaining
-to Tree::Ternary should be sent to me at wendigo@pobox.com
+to Tree::Ternary should be sent to me at mrogaski@cpan.org.
 
 
 AVAILABILITY
 
-The latest version of Tree::Ternary is available at:
+The latest version of Tree::Ternary is available on CPAN or at:
 
-	http://www.perl.com/CPAN/modules/by-authors/id/MROGASKI/
-
-or also at:
-
-	ftp://deathstar.jabberwock.org/pub/lang/perl/modules/
+	https://github.com/mrogaski/Tree-Ternary
 
 
 AUTHOR
 
-Mark Rogaski, wendigo@pobox.com
+Mark Rogaski <mrogaski@cpan.org>
 
 
 COPYRIGHT
 
-Copyright 1999, Mark Rogaski, wendigo@pobox.com, all rights reserved.
+Copyright (C) 1999, Mark Rogaski; all rights reserved.
 
-This package is free software and is provided "as is" without express or
-implied warranty.  It may be used, redistributed and/or modified under the
-same terms as Perl itself.
+This module is free software.  You can redistribute it and/or
+modify it under the terms of the Artistic License 2.0.
+
+This program is distributed in the hope that it will be useful,
+but without any warranty; without even the implied warranty of
+merchantability or fitness for a particular purpose.
 
 
 SEE ALSO
 
 Bentley, Jon and Sedgewick, Robert.  "Ternary Search Trees".  Dr. Dobb's
 Journal, April 1998.
-http://www.ddj.com/articles/1998/9804/9804a/9804a.htm
+http://www.drdobbs.com/database/ternary-search-trees/184410528
 
 Bentley, Jon and Sedgewick, Robert.  "Fast Algorithms for Sorting and
 Searching Strings".  Eighth Annual ACM-SIAM Symposium on Discrete Algorithms
 New Orleans, January, 1997.
 http://www.cs.princeton.edu/~rs/strings/
 
-
---
-$Id: README,v 1.5 1999/09/23 04:09:36 wendigo Exp $
 

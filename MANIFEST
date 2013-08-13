@@ -1,6 +1,7 @@
-Changes
+changes.pod
 MANIFEST
 Makefile.PL
+META.json
 README
 Ternary.pm
 t/00_load.t
@@ -14,3 +15,4 @@ t/30_interop.t
 t/40_pmsearch.t
 t/45_nearsearch.t
 t/50_traverse.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
